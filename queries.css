@@ -4,9 +4,9 @@
 /* BELOW 1344px (Smaller desktops) */
 /***********************************/
 
-@media (max-width: 85em) {
+@media (max-width: 90em) {
   .quote-container {
-    width: 55rem;
+    width: 65rem;
     left: 3%;
   }
   .quote-icon {
@@ -19,7 +19,7 @@
     margin: 0 15%;
   }
   .film {
-    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   }
 }
 
@@ -32,13 +32,16 @@
     letter-spacing: 0rem;
   }
   .bio-container {
-    width: 45rem;
+    width: 40rem;
   }
   .text--size {
     font-size: 1.4rem;
   }
   .section-awards {
     padding: 2rem 4rem;
+  }
+  .awards {
+    margin: 0 auto;
   }
   .award-item p,
   .award-icon {
@@ -65,8 +68,12 @@
     font-size: 3.2rem;
   }
 
+  .bio-container {
+    width: 35rem;
+  }
+
   .quote-container {
-    width: 40rem;
+    width: 35rem;
     top: 25%;
     left: 8%;
   }
@@ -75,7 +82,7 @@
   }
   .gallery,
   .film {
-    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     padding: 2rem 4rem;
   }
 }

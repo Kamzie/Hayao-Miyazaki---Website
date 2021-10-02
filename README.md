@@ -1,5 +1,4 @@
-# Hayoa-Miyazaki
-Tribute page for Hayoa Miyazaki
+# Tribute page for Hayoa-Miyazaki
 
 Netlify link below:
 

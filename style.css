@@ -136,15 +136,7 @@ body {
 .bio-text-caption {
   text-align: end;
 }
-/* Wiki Caption */
-.bio-text-caption a {
-  font-weight: 600;
-  color: #1717f5;
-  text-decoration: none;
-}
-.bio-text-caption a:visited {
-  text-decoration: none;
-}
+
 /* Studio Ghibli Logo */
 .bio-logo {
   display: flex;
@@ -310,23 +302,6 @@ body {
   text-align: end;
   margin-bottom: 1.4rem;
 }
-/*  Wiki Caption */
-.film-text-caption a {
-  font-weight: 600;
-  color: #1717f5;
-  text-decoration: none;
-}
-.film-text-caption a:visited {
-  text-decoration: none;
-}
-.film-text-caption a:hover {
-  text-decoration: none;
-  color: red;
-}
-.film-text-caption a:active {
-  text-decoration: none;
-  color: #000;
-}
 
 /*********************************/
 /*** Feature Films ***/
@@ -341,16 +316,30 @@ body {
   transition: background-color 0.5s;
   border-top: 1.5px solid #eff3ff;
 }
+/*********************************************/
+/*  Wiki / Footer captions (Active/Hover etc) */
+/*********************************************/
+
+.bio-text-caption a,
+.film-text-caption a,
 .footer a {
+  font-weight: 600;
   color: #1717f5;
   text-decoration: none;
-  font-weight: 600;
 }
+.bio-text-caption a:visited,
+.film-text-caption a:visited {
+  text-decoration: none;
+}
+.bio-text-caption a:hover,
+.film-text-caption a:hover,
 .footer a:hover {
   text-decoration: none;
   color: red;
 }
+.bio-text-caption a:active,
+.film-text-caption a:active,
 .footer a:active {
   text-decoration: none;
-  color: #000;
+  color: grey;
 }

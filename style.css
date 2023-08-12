@@ -327,20 +327,13 @@ body {
   color: #1717f5;
   text-decoration: none;
 }
-.bio-text-caption a:visited,
-.film-text-caption a:visited,
-.footer a:visited {
-  text-decoration: none;
-}
 .bio-text-caption a:hover,
 .film-text-caption a:hover,
 .footer a:hover {
-  text-decoration: none;
   color: red;
 }
 .bio-text-caption a:active,
 .film-text-caption a:active,
 .footer a:active {
-  text-decoration: none;
   color: grey;
 }

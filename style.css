@@ -317,7 +317,7 @@ body {
   border-top: 1.5px solid #eff3ff;
 }
 /*********************************************/
-/*  Wiki / Footer captions (Active/Hover etc) */
+/*  Bio / Wiki / Footer captions (Active/Hover etc) */
 /*********************************************/
 
 .bio-text-caption a,
@@ -328,7 +328,8 @@ body {
   text-decoration: none;
 }
 .bio-text-caption a:visited,
-.film-text-caption a:visited {
+.film-text-caption a:visited,
+.footer a:visited {
   text-decoration: none;
 }
 .bio-text-caption a:hover,

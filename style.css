@@ -31,6 +31,7 @@ box-shadow: 0 5px 24px 0px rgba(0, 0, 0, 0.075);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --border-set: 1.5px solid #eff3ff;
 }
 html {
   font-size: 62.5%;
@@ -210,9 +211,6 @@ body {
   width: 80%;
   margin: 0 auto;
   padding: 1rem 0 8rem 0;
-  border-bottom: 1.5px solid #eff3ff;
-
-  /* padding: 4.8rem 6.4rem; */
 }
 .film-item {
   display: flex;
@@ -253,6 +251,7 @@ body {
 
 .section-awards {
   background-color: #e0e8ff;
+  border-top: var(--border-set);
 }
 .awards {
   display: grid;
@@ -321,7 +320,7 @@ body {
   text-decoration: none;
   padding: 2rem;
   transition: background-color 0.5s;
-  border-top: 1.5px solid #eff3ff;
+  border-top: var(--border-set);
 }
 /*********************************************/
 /*  Bio / Wiki / Footer captions (Active/Hover etc) */

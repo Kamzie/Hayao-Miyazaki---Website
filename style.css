@@ -136,6 +136,15 @@ body {
 .bio-text-con {
   padding: 0 4rem;
 }
+
+/* Big H colored orangered */
+.bio-text-con::first-letter {
+  font-size: 5rem;
+  color: orangered;
+  float: left;
+  margin: -15px 5px -16px 0;
+  padding: 10;
+}
 /* Hayao Miyazaki Bio Text */
 .bio-text {
   text-align: justify;
@@ -143,6 +152,7 @@ body {
   line-height: 1.6;
   margin-bottom: 2rem;
 }
+
 .bio-text span {
   font-weight: 600;
 }

@@ -259,7 +259,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   margin: 0 30%;
   color: #220274;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 .awards-label {
   display: flex;

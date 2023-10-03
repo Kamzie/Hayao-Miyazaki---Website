@@ -26,13 +26,16 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <title>Tribute page for Hayao Miyazaki</title>
+    <script defer src="script.js"></script>
   </head>
   <body>
     <section class="hero parallax bg_img_1">
       <h2 class="hero_text">The Films of</h2>
       <h1 class="hero_name">Hayao Miyazaki</h1>
     </section>
+
     <!-- BIO SECTION -->
+
     <section class="bio">
       <div class="bio_container">
         <picture>
@@ -103,331 +106,387 @@
         <p class="signature">— HAYAO MIYAZAKI</p>
       </div>
     </section>
+
     <!-- FILM SECTION -->
+
     <section class="section_films">
       <header class="page_header">Filmography</header>
-      <div class="film_slider">
-        <!-- Nausicaä of the Valley of the Wind -->
-        <figure class="film_slide film--1">
-          <img
-            class="film-img"
-            src="img/Movie%20covers/Webp/Nausicaa.webp"
-            alt="Picture of Nausicaä of the Valley of the Wind movie poster"
-          />
-          <p class="film_title">
-            Nausicaä of the Valley of the Wind
-            <span class="film_date text--size">(1984)</span>
-          </p>
-          <p class="film_text text--size">
-            Taking place in a future post-apocalyptic world, the film tells the
-            story of Nausicaä (Shimamoto), the young princess of the Valley of
-            the Wind. She becomes embroiled in a struggle with Tolmekia, a
-            kingdom that tries to use an ancient weapon to eradicate a jungle
-            full of mutant giant insects.
-          </p>
-          <p class="film_text_caption caption--size">
-            (From
-            <a
-              rel="noopener"
-              href="https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)"
-              target="_blank"
-              ><cite>Wikipedia</cite></a
-            >)
-          </p>
-        </figure>
-        <!-- Princess Mononoke -->
-        <figure class="film_slide film--2">
-          <img
-            class="film-img"
-            src="img/Movie%20covers/Webp/Princess%20Mononoke.webp"
-            alt="Picture of Princess Mononoke movie poster"
-          />
-          <p class="film_title">
-            Princess Mononoke <span class="film_date text--size">(1997)</span>
-          </p>
-          <p class="film_text text--size">
-            The story follows a young Emishi prince named Ashitaka, and his
-            involvement in a struggle between the gods of a forest and the
-            humans who consume its resources.
-          </p>
-          <p class="film_text_caption caption--size">
-            (From
-            <a
-              rel="noopener"
-              href="https://en.wikipedia.org/wiki/Princess_Mononoke"
-              target="_blank"
-              ><cite>Wikipedia</cite></a
-            >)
-          </p>
-        </figure>
-        <!-- My Neighbor Totoro -->
-        <figure class="film_slide film--3">
-          <img
-            class="film-img"
-            src="img/Movie%20covers/Webp/My%20Neighbor%20Totoro.webp"
-            alt="Picture of My Neighbor Totoro movie poster"
-          />
-          <p class="film_title">
-            My Neighbor Totoro <span class="film_date text--size">(1988)</span>
-          </p>
-          <p class="film_text text--size">
-            The film—which stars the voice actors Noriko Hidaka, Chika Sakamoto,
-            and Hitoshi Takagi—tells the story of a professor's two young
-            daughters (Satsuki and Mei) and their interactions with friendly
-            wood spirits in post-war rural Japan.
-          </p>
-          <p class="film_text_caption caption--size">
-            (From
-            <a
-              rel="noopener"
-              href="https://en.wikipedia.org/wiki/My_Neighbor_Totoro"
-              target="_blank"
-              ><cite>Wikipedia</cite></a
-            >)
-          </p>
-        </figure>
-        <!-- SPIRITED AWAY -->
-        <figure class="film_slide film--4">
-          <img
-            class="film-img"
-            src="img/Movie%20covers/Webp/Spirited%20away.webp"
-            alt="Picture of Spirited Away movie poster"
-          />
-          <p class="film_title">
-            Spirited Away <span class="film_date text--size">(2001)</span>
-          </p>
-          <p class="film_text text--size">
-            Spirited Away tells the story of Chihiro, a ten-year-old girl who,
-            while moving to a new neighborhood, enters the spirit world. After
-            her parents are turned into pigs by the witch Yubaba, Chihiro takes
-            a job working in Yubaba's bathhouse to find a way to free herself
-            and her parents.
-          </p>
-          <p class="film_text_caption caption--size">
-            (From
-            <a
-              rel="noopener"
-              href="https://en.wikipedia.org/wiki/Spirited_Away"
-              target="_blank"
-              ><cite>Wikipedia</cite></a
-            >)
-          </p>
-        </figure>
-        <!-- Porco Rosso -->
-        <figure class="film_slide film--5">
-          <img
-            class="film-img"
-            src="img/Movie%20covers/Webp/Porco%20Rosso.webp"
-            alt="Picture of Porco Rosso movie poster"
-          />
-          <p class="film_title">
-            Porco Rosso <span class="film_date text--size">(1992)</span>
-          </p>
-          <p class="film_text text--size">
-            The plot revolves around an Italian World War I ex-fighter ace, now
-            living as a freelance bounty hunter chasing "air pirates" in the
-            Adriatic Sea. However, an unusual curse has transformed him into an
-            anthropomorphic pig, and he is known to the world as "Porco Rosso".
-          </p>
-          <p class="film_text_caption caption--size">
-            (From
-            <a
-              rel="noopener"
-              href="https://en.wikipedia.org/wiki/Porco_Rosso"
-              target="_blank"
-              ><cite>Wikipedia</cite></a
-            >)
-          </p>
-        </figure>
-        <!-- Kiki's Delivery Service -->
-        <figure class="film_slide film--6">
-          <img
-            class="film-img"
-            src="img/Movie%20covers/Webp/kiki.webp"
-            alt="Picture of Kiki's Delivery Service movie poster"
-          />
-          <p class="film_title">
-            Kiki's Delivery Service
-            <span class="film_date text--size">(1989)</span>
-          </p>
-          <p class="film_text text--size">
-            The film tells the story of a young witch, Kiki, who moves to a new
-            town and uses her flying ability to earn a living. According to
-            Miyazaki, the movie portrays the gulf between independence and
-            reliance in teenage Japanese girls.
-          </p>
-          <p class="film_text_caption caption--size">
-            (From
-            <a
-              rel="noopener"
-              href="https://en.wikipedia.org/wiki/Kiki%27s_Delivery_Service"
-              target="_blank"
-              ><cite>Wikipedia</cite></a
-            >)
-          </p>
-        </figure>
-        <!-- Howl's Moving Castle -->
-        <figure class="film_slide film--7">
-          <img
-            class="film-img"
-            src="img/Movie%20covers/Webp/Howls.webp"
-            alt="Picture of Howl's Moving Castle movie poster"
-          />
-          <p class="film_title">
-            Howl's Moving Castle
-            <span class="film_date text--size">(2004)</span>
-          </p>
-          <p class="film_text text--size">
-            The story is set in a fictional kingdom where both magic and early
-            20th-century technology are prevalent, against the backdrop of a war
-            with another kingdom. The film tells the story of a young, content
-            milliner named Sophie who is turned into an old woman by a witch who
-            enters her shop and curses her.
-          </p>
-          <p class="film_text_caption caption--size">
-            (From
-            <a
-              rel="noopener"
-              href="https://en.wikipedia.org/wiki/Howl%27s_Moving_Castle_(film)"
-              target="_blank"
-              ><cite>Wikipedia</cite></a
-            >)
-          </p>
-        </figure>
-        <!-- Ponyo -->
-        <figure class="film_slide film--8">
-          <img
-            class="film-img"
-            src="img/Movie%20covers/Webp/Ponyo.webp"
-            alt="Picture of Ponyo movie poster"
-          />
-          <p class="film_title">
-            Ponyo <span class="film_date text--size">(2008)</span>
-          </p>
-          <p class="film_text text--size">
-            The film tells the story of Ponyo (Nara), a goldfish who escapes
-            from the ocean and is rescued by a five-year-old human boy, Sōsuke
-            (Doi) after she is washed ashore while trapped in a glass jar. As
-            they bond with each other, the story deals with resolving Ponyo's
-            desire to become a human girl.
-          </p>
-          <p class="film_text_caption caption--size">
-            (From
-            <a
-              rel="noopener"
-              href="https://en.wikipedia.org/wiki/Ponyo"
-              target="_blank"
-              ><cite>Wikipedia</cite></a
-            >)
-          </p>
-        </figure>
-        <!-- The Castle of Cagliostro -->
-        <figure class="film_slide film--9">
-          <img
-            class="film-img"
-            src="img/Movie%20covers/Webp/The%20Castle%20of%20Cagliostro.webp"
-            alt="Picture of the Castle of Cagliostro movie poster"
-          />
-          <p class="film_title">
-            The Castle of Cagliostro
-            <span class="film_date text--size">(1979)</span>
-          </p>
-          <p class="film_text text--size">
-            The Castle of Cagliostro follows gentleman thief Arsène Lupin III,
-            who successfully robs a casino – only to find the money to be
-            counterfeit. He heads to the tiny country of Cagliostro, the
-            rumoured source of the bills, and attempts to save the runaway
-            Princess Clarisse from the Count Cagliostro's men.
-          </p>
-          <p class="film_text_caption caption--size">
-            (From
-            <a
-              rel="noopener"
-              href="https://en.wikipedia.org/wiki/The_Castle_of_Cagliostro"
-              target="_blank"
-              ><cite>Wikipedia</cite></a
-            >)
-          </p>
-        </figure>
-        <!-- Castle in the Sky -->
-        <figure class="film_slide film--10">
-          <img
-            class="film-img"
-            src="img/Movie%20covers/Webp/Castle%20in%20the%20sky.webp"
-            alt="Picture of the Castle in the Sky movie poster"
-          />
-          <p class="film_title">
-            Castle in the Sky <span class="film_date text--size">(1986)</span>
-          </p>
-          <p class="film_text text--size">
-            It follows the adventures of a young boy and girl in the late 19th
-            century attempting to keep a magic crystal from a group of military
-            agents, while searching for a legendary floating castle. The film
-            was distributed by Toei Company.
-          </p>
-          <p class="film_text_caption caption--size">
-            (From
-            <a
-              rel="noopener"
-              href="https://en.wikipedia.org/wiki/Castle_in_the_Sky"
-              target="_blank"
-              ><cite>Wikipedia</cite></a
-            >)
-          </p>
-        </figure>
-        <!-- The Wind Rises -->
-        <figure class="film_slide film--11">
-          <img
-            class="film-img"
-            src="img/Movie%20covers/Webp/The%20Wind%20Rises.webp"
-            alt="Picture of The Wind Rises movie poster"
-          />
-          <p class="film_title">
-            The Wind Rises <span class="film_date text--size">(2013)</span>
-          </p>
-          <p class="film_text text--size">
-            The Wind Rises is a fictionalised biographical film of Jiro
-            Horikoshi (1903–1982), designer of the Mitsubishi A5M fighter
-            aircraft and its successor, the Mitsubishi A6M Zero, used by the
-            Empire of Japan during World War II.
-          </p>
-          <p class="film_text_caption caption--size">
-            (From
-            <a
-              rel="noopener"
-              href="https://en.wikipedia.org/wiki/The_Wind_Rises"
-              target="_blank"
-              ><cite>Wikipedia</cite></a
-            >)
-          </p>
-        </figure>
-        <!-- How Do You Live? -->
-        <figure class="film_slide film--12">
-          <img
-            class="film-img"
-            src="img/Movie%20covers/Webp/How%20do%20you%20live.webp"
-            alt="Picture of How Do You Live? movie poster"
-          />
-          <p class="film_title">
-            How Do You Live? <span class="film_date text--size">(TBA)</span>
-          </p>
-          <p class="film_text text--size">
-            Miyazaki announced he had come out of retirement to direct How Do
-            You Live?, which is expected to be released in 2023.
-          </p>
-          <p class="film_text_caption caption--size">
-            (From
-            <a
-              rel="noopener"
-              href="https://en.wikipedia.org/wiki/How_Do_You_Live%3F_(film)"
-              target="_blank"
-              ><cite>Wikipedia</cite></a
-            >)
-          </p>
-        </figure>
+      <div>
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="film_slider">
+          <!-- Nausicaä of the Valley of the Wind -->
+
+          <div class="slides">
+            <figure class="film_container film--1">
+              <img
+                class="film-img"
+                src="img/Movie%20covers/Webp/Nausicaa.webp"
+                alt="Picture of Nausicaä of the Valley of the Wind movie poster"
+              />
+              <p class="film_title">
+                Nausicaä of the Valley of the Wind
+                <span class="film_date text--size">(1984)</span>
+              </p>
+              <p class="film_text text--size">
+                Taking place in a future post-apocalyptic world, the film tells
+                the story of Nausicaä (Shimamoto), the young princess of the
+                Valley of the Wind. She becomes embroiled in a struggle with
+                Tolmekia, a kingdom that tries to use an ancient weapon to
+                eradicate a jungle full of mutant giant insects.
+              </p>
+              <p class="film_text_caption caption--size">
+                (From
+                <a
+                  rel="noopener"
+                  href="https://en.wikipedia.org/wiki/Nausica%C3%A4_of_the_Valley_of_the_Wind_(film)"
+                  target="_blank"
+                  ><cite>Wikipedia</cite></a
+                >)
+              </p>
+            </figure>
+          </div>
+
+          <!-- Princess Mononoke -->
+
+          <div class="slides">
+            <figure class="film_container film--2">
+              <img
+                class="film-img"
+                src="img/Movie%20covers/Webp/Princess%20Mononoke.webp"
+                alt="Picture of Princess Mononoke movie poster"
+              />
+              <p class="film_title">
+                Princess Mononoke
+                <span class="film_date text--size">(1997)</span>
+              </p>
+              <p class="film_text text--size">
+                The story follows a young Emishi prince named Ashitaka, and his
+                involvement in a struggle between the gods of a forest and the
+                humans who consume its resources.
+              </p>
+              <p class="film_text_caption caption--size">
+                (From
+                <a
+                  rel="noopener"
+                  href="https://en.wikipedia.org/wiki/Princess_Mononoke"
+                  target="_blank"
+                  ><cite>Wikipedia</cite></a
+                >)
+              </p>
+            </figure>
+          </div>
+          <!-- My Neighbor Totoro -->
+          <div class="slides">
+            <figure class="film_container film--3">
+              <img
+                class="film-img"
+                src="img/Movie%20covers/Webp/My%20Neighbor%20Totoro.webp"
+                alt="Picture of My Neighbor Totoro movie poster"
+              />
+              <p class="film_title">
+                My Neighbor Totoro
+                <span class="film_date text--size">(1988)</span>
+              </p>
+              <p class="film_text text--size">
+                The film—which stars the voice actors Noriko Hidaka, Chika
+                Sakamoto, and Hitoshi Takagi—tells the story of a professor's
+                two young daughters (Satsuki and Mei) and their interactions
+                with friendly wood spirits in post-war rural Japan.
+              </p>
+              <p class="film_text_caption caption--size">
+                (From
+                <a
+                  rel="noopener"
+                  href="https://en.wikipedia.org/wiki/My_Neighbor_Totoro"
+                  target="_blank"
+                  ><cite>Wikipedia</cite></a
+                >)
+              </p>
+            </figure>
+          </div>
+          <!-- SPIRITED AWAY -->
+          <div class="slides">
+            <figure class="film_container film--4">
+              <img
+                class="film-img"
+                src="img/Movie%20covers/Webp/Spirited%20away.webp"
+                alt="Picture of Spirited Away movie poster"
+              />
+              <p class="film_title">
+                Spirited Away <span class="film_date text--size">(2001)</span>
+              </p>
+              <p class="film_text text--size">
+                Spirited Away tells the story of Chihiro, a ten-year-old girl
+                who, while moving to a new neighborhood, enters the spirit
+                world. After her parents are turned into pigs by the witch
+                Yubaba, Chihiro takes a job working in Yubaba's bathhouse to
+                find a way to free herself and her parents.
+              </p>
+              <p class="film_text_caption caption--size">
+                (From
+                <a
+                  rel="noopener"
+                  href="https://en.wikipedia.org/wiki/Spirited_Away"
+                  target="_blank"
+                  ><cite>Wikipedia</cite></a
+                >)
+              </p>
+            </figure>
+          </div>
+
+          <!-- Porco Rosso -->
+
+          <div class="slides">
+            <figure class="film_container film--5">
+              <img
+                class="film-img"
+                src="img/Movie%20covers/Webp/Porco%20Rosso.webp"
+                alt="Picture of Porco Rosso movie poster"
+              />
+              <p class="film_title">
+                Porco Rosso <span class="film_date text--size">(1992)</span>
+              </p>
+              <p class="film_text text--size">
+                The plot revolves around an Italian World War I ex-fighter ace,
+                now living as a freelance bounty hunter chasing "air pirates" in
+                the Adriatic Sea. However, an unusual curse has transformed him
+                into an anthropomorphic pig, and he is known to the world as
+                "Porco Rosso".
+              </p>
+              <p class="film_text_caption caption--size">
+                (From
+                <a
+                  rel="noopener"
+                  href="https://en.wikipedia.org/wiki/Porco_Rosso"
+                  target="_blank"
+                  ><cite>Wikipedia</cite></a
+                >)
+              </p>
+            </figure>
+          </div>
+
+          <!-- Kiki's Delivery Service -->
+
+          <div class="slides">
+            <figure class="film_container film--6">
+              <img
+                class="film-img"
+                src="img/Movie%20covers/Webp/kiki.webp"
+                alt="Picture of Kiki's Delivery Service movie poster"
+              />
+              <p class="film_title">
+                Kiki's Delivery Service
+                <span class="film_date text--size">(1989)</span>
+              </p>
+              <p class="film_text text--size">
+                The film tells the story of a young witch, Kiki, who moves to a
+                new town and uses her flying ability to earn a living. According
+                to Miyazaki, the movie portrays the gulf between independence
+                and reliance in teenage Japanese girls.
+              </p>
+              <p class="film_text_caption caption--size">
+                (From
+                <a
+                  rel="noopener"
+                  href="https://en.wikipedia.org/wiki/Kiki%27s_Delivery_Service"
+                  target="_blank"
+                  ><cite>Wikipedia</cite></a
+                >)
+              </p>
+            </figure>
+          </div>
+
+          <!-- Howl's Moving Castle -->
+
+          <div class="slides">
+            <figure class="film_container film--7">
+              <img
+                class="film-img"
+                src="img/Movie%20covers/Webp/Howls.webp"
+                alt="Picture of Howl's Moving Castle movie poster"
+              />
+              <p class="film_title">
+                Howl's Moving Castle
+                <span class="film_date text--size">(2004)</span>
+              </p>
+              <p class="film_text text--size">
+                The story is set in a fictional kingdom where both magic and
+                early 20th-century technology are prevalent, against the
+                backdrop of a war with another kingdom. The film tells the story
+                of a young, content milliner named Sophie who is turned into an
+                old woman by a witch who enters her shop and curses her.
+              </p>
+              <p class="film_text_caption caption--size">
+                (From
+                <a
+                  rel="noopener"
+                  href="https://en.wikipedia.org/wiki/Howl%27s_Moving_Castle_(film)"
+                  target="_blank"
+                  ><cite>Wikipedia</cite></a
+                >)
+              </p>
+            </figure>
+          </div>
+
+          <!-- Ponyo -->
+
+          <div class="slides">
+            <figure class="film_container film--8">
+              <img
+                class="film-img"
+                src="img/Movie%20covers/Webp/Ponyo.webp"
+                alt="Picture of Ponyo movie poster"
+              />
+              <p class="film_title">
+                Ponyo <span class="film_date text--size">(2008)</span>
+              </p>
+              <p class="film_text text--size">
+                The film tells the story of Ponyo (Nara), a goldfish who escapes
+                from the ocean and is rescued by a five-year-old human boy,
+                Sōsuke (Doi) after she is washed ashore while trapped in a glass
+                jar. As they bond with each other, the story deals with
+                resolving Ponyo's desire to become a human girl.
+              </p>
+              <p class="film_text_caption caption--size">
+                (From
+                <a
+                  rel="noopener"
+                  href="https://en.wikipedia.org/wiki/Ponyo"
+                  target="_blank"
+                  ><cite>Wikipedia</cite></a
+                >)
+              </p>
+            </figure>
+          </div>
+
+          <!-- The Castle of Cagliostro -->
+
+          <div class="slides">
+            <figure class="film_container film--9">
+              <img
+                class="film-img"
+                src="img/Movie%20covers/Webp/The%20Castle%20of%20Cagliostro.webp"
+                alt="Picture of the Castle of Cagliostro movie poster"
+              />
+              <p class="film_title">
+                The Castle of Cagliostro
+                <span class="film_date text--size">(1979)</span>
+              </p>
+              <p class="film_text text--size">
+                The Castle of Cagliostro follows gentleman thief Arsène Lupin
+                III, who successfully robs a casino – only to find the money to
+                be counterfeit. He heads to the tiny country of Cagliostro, the
+                rumoured source of the bills, and attempts to save the runaway
+                Princess Clarisse from the Count Cagliostro's men.
+              </p>
+              <p class="film_text_caption caption--size">
+                (From
+                <a
+                  rel="noopener"
+                  href="https://en.wikipedia.org/wiki/The_Castle_of_Cagliostro"
+                  target="_blank"
+                  ><cite>Wikipedia</cite></a
+                >)
+              </p>
+            </figure>
+          </div>
+
+          <!-- Castle in the Sky -->
+
+          <div class="slides">
+            <figure class="film_container film--10">
+              <img
+                class="film-img"
+                src="img/Movie%20covers/Webp/Castle%20in%20the%20sky.webp"
+                alt="Picture of the Castle in the Sky movie poster"
+              />
+              <p class="film_title">
+                Castle in the Sky
+                <span class="film_date text--size">(1986)</span>
+              </p>
+              <p class="film_text text--size">
+                It follows the adventures of a young boy and girl in the late
+                19th century attempting to keep a magic crystal from a group of
+                military agents, while searching for a legendary floating
+                castle. The film was distributed by Toei Company.
+              </p>
+              <p class="film_text_caption caption--size">
+                (From
+                <a
+                  rel="noopener"
+                  href="https://en.wikipedia.org/wiki/Castle_in_the_Sky"
+                  target="_blank"
+                  ><cite>Wikipedia</cite></a
+                >)
+              </p>
+            </figure>
+          </div>
+
+          <!-- The Wind Rises -->
+
+          <div class="slides">
+            <figure class="film_container film--11">
+              <img
+                class="film-img"
+                src="img/Movie%20covers/Webp/The%20Wind%20Rises.webp"
+                alt="Picture of The Wind Rises movie poster"
+              />
+              <p class="film_title">
+                The Wind Rises <span class="film_date text--size">(2013)</span>
+              </p>
+              <p class="film_text text--size">
+                The Wind Rises is a fictionalised biographical film of Jiro
+                Horikoshi (1903–1982), designer of the Mitsubishi A5M fighter
+                aircraft and its successor, the Mitsubishi A6M Zero, used by the
+                Empire of Japan during World War II.
+              </p>
+              <p class="film_text_caption caption--size">
+                (From
+                <a
+                  rel="noopener"
+                  href="https://en.wikipedia.org/wiki/The_Wind_Rises"
+                  target="_blank"
+                  ><cite>Wikipedia</cite></a
+                >)
+              </p>
+            </figure>
+          </div>
+
+          <!-- How Do You Live? -->
+
+          <div class="slides">
+            <figure class="film_container film--12">
+              <img
+                class="film-img"
+                src="img/Movie%20covers/Webp/How%20do%20you%20live.webp"
+                alt="Picture of How Do You Live? movie poster"
+              />
+              <p class="film_title">
+                How Do You Live? <span class="film_date text--size">(TBA)</span>
+              </p>
+              <p class="film_text text--size">
+                Miyazaki announced he had come out of retirement to direct How
+                Do You Live?, which is expected to be released in 2023.
+              </p>
+              <p class="film_text_caption caption--size">
+                (From
+                <a
+                  rel="noopener"
+                  href="https://en.wikipedia.org/wiki/How_Do_You_Live%3F_(film)"
+                  target="_blank"
+                  ><cite>Wikipedia</cite></a
+                >)
+              </p>
+            </figure>
+          </div>
+        </div>
+        <p class="film_number"></p>
       </div>
     </section>
+
     <!-- AWARDS -->
+
     <section class="section_awards">
       <header class="page_header">Awards and Nominations</header>
 
@@ -465,7 +524,9 @@
         </div>
       </div>
     </section>
+
     <!-- GALLERY -->
+
     <section class="section_gallery">
       <div class="gallery">
         <figure class="gallery_item item-1">
@@ -542,6 +603,9 @@
         </figure>
       </div>
     </section>
+
+    <!-- FOOTER-->
+
     <footer class="footer">
       &lt; /&gt; by
       <a

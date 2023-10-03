@@ -5,21 +5,22 @@
 /***********************************/
 
 @media (max-width: 90em) {
-  .quote-container {
+  .quote_container {
     width: 65rem;
     left: 3%;
   }
-  .quote-icon {
+  .quote_icon {
     font-size: 6rem;
   }
-  .quote-text {
+  .quote_text {
     font-size: 1.6rem;
   }
   .awards {
     margin: 0 15%;
   }
-  .film {
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  .film_container {
+    width: 50%;
+    height: 80%;
   }
 }
 
@@ -27,39 +28,44 @@
 /* BELOW 750px (Smaller desktops) */
 /**********************************/
 @media (max-width: 47em) {
-  .hero-name {
+  .hero_name {
     font-size: 4.4rem;
     letter-spacing: 0rem;
   }
-  .page-header {
+
+  .page_header {
     font-size: 3rem;
   }
-  .bio-container {
+  .bio_container {
     width: 40rem;
   }
-  .bio-text-con::first-letter {
+  .bio_text_con::first-letter {
     font-size: 4rem;
     margin: -10px 5px -10px 0;
   }
   .text--size {
     font-size: 1.4rem;
   }
-  .section-awards {
+  .section_awards {
     padding: 2rem 4rem;
   }
   .awards {
     margin: 0 auto;
   }
-  .award-item p,
-  .award-icon {
+  .award_item p,
+  .award_icon {
     font-size: 2rem;
   }
-  .awards-label {
+  .awards_label {
     font-size: 1.4rem;
   }
   .award--4 {
     grid-column: 2/3;
     grid-row: 2/3;
+  }
+  .film_container {
+    width: 50%;
+    height: 100%;
   }
 }
 
@@ -68,33 +74,40 @@
 /**********************************/
 
 @media (max-width: 35em) {
-  .hero-text {
+  .hero_text {
     font-size: 1.6rem;
   }
-  .hero-name {
+  .hero_name {
     font-size: 3.2rem;
   }
-
-  .bio-container {
-    width: 35rem;
+  .parallax {
+    min-width: 40rem;
   }
-  .bio-text-con::first-letter {
+
+  .bio_container {
+    min-width: 35rem;
+  }
+  .bio_text_con::first-letter {
     font-size: 4rem;
     margin: -11px 5px -10px 0;
   }
 
-  .quote-container {
+  .quote_container {
     width: 35rem;
     top: 25%;
     left: 8%;
   }
-  .section-awards {
+  .section_awards {
     padding-bottom: 0;
   }
-  .gallery,
-  .film {
+  .gallery {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     padding: 2rem 4rem;
+  }
+  .film_container {
+    min-width: 80%;
+    height: 90%;
+    overflow: hidden;
   }
 }
 

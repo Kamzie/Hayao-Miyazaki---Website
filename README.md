@@ -2,6 +2,8 @@
 
 Build a responsive website for mobile/desktop browsers.
 
+Pass lighthouse benchmark
+
 Host on Netlify + move to the cloud + DB measuring analytics
 
 

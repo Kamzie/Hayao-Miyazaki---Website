@@ -31,8 +31,15 @@
     font-size: 4.4rem;
     letter-spacing: 0rem;
   }
+  .page-header {
+    font-size: 3rem;
+  }
   .bio-container {
     width: 40rem;
+  }
+  .bio-text-con::first-letter {
+    font-size: 4rem;
+    margin: -10px 5px -10px 0;
   }
   .text--size {
     font-size: 1.4rem;
@@ -45,7 +52,7 @@
   }
   .award-item p,
   .award-icon {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
   .awards-label {
     font-size: 1.4rem;
@@ -70,6 +77,10 @@
 
   .bio-container {
     width: 35rem;
+  }
+  .bio-text-con::first-letter {
+    font-size: 4rem;
+    margin: -11px 5px -10px 0;
   }
 
   .quote-container {

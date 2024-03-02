@@ -1,3 +1,5 @@
+# Tribute page for Hayoa Miyazaki
+
 Build a responsive website for mobile/desktop browsers.
 
 Optimize to pass lighthouse benchmark

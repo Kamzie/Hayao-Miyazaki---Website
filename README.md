@@ -1,5 +1,7 @@
-# Tribute page for Hayoa-Miyazaki
+Build a responsive website for mobile/desktop browsers.
 
-Netlify link below:
+Pass lighthouse benchmark
 
-https://hayao.netlify.app/
+Host on Netlify + move (host) to the cloud + DB measuring analytics
+
+Netlify link below: https://hayao.netlify.app/

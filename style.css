@@ -16,6 +16,9 @@ Tint:
 Wiki link:
 #1717f5;
 
+Header-font:
+#190350;
+
 Awards-font: 
 #220274;
 
@@ -28,6 +31,7 @@ box-shadow: 0 5px 24px 0px rgba(0, 0, 0, 0.075);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --border-set: 1.5px solid #eff3ff;
 }
 html {
   font-size: 62.5%;
@@ -56,12 +60,18 @@ body {
 .caption--size {
   font-size: 1.2rem;
 }
-.page-header {
-  font-size: 4.4rem;
-  text-align: center;
-  justify-content: center;
-  color: #220274;
+.indent {
+  margin-left: 2em;
 }
+.page-header {
+  margin: 5rem auto;
+  text-align: center;
+  font-size: 5rem;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  color: #190350;
+}
+
 /*********************************/
 /*** HERO PAGE ***/
 /*********************************/
@@ -120,10 +130,20 @@ body {
 .bio-img-caption {
   font-weight: 500;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-top: -18px;
+  margin-bottom: 4rem;
 }
 .bio-text-con {
   padding: 0 4rem;
+}
+
+/* Big H colored orangered */
+.bio-text-con::first-letter {
+  font-size: 5rem;
+  color: orangered;
+  float: left;
+  margin: -15px 5px -16px 0;
+  padding: 10;
 }
 /* Hayao Miyazaki Bio Text */
 .bio-text {
@@ -132,21 +152,14 @@ body {
   line-height: 1.6;
   margin-bottom: 2rem;
 }
+
 .bio-text span {
   font-weight: 600;
 }
 .bio-text-caption {
   text-align: end;
 }
-/* Wiki Caption */
-.bio-text-caption a {
-  font-weight: 600;
-  color: #1717f5;
-  text-decoration: none;
-}
-.bio-text-caption a:visited {
-  text-decoration: none;
-}
+
 /* Studio Ghibli Logo */
 .bio-logo {
   display: flex;
@@ -167,6 +180,7 @@ body {
 }
 .quote-container {
   display: flex;
+  text-align: justify;
   flex-direction: column;
   gap: 1rem;
   width: 85rem;
@@ -184,36 +198,29 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.1rem;
-  margin-top: -5rem;
+  margin-top: -6.5rem;
   padding-left: 3.5rem;
 }
 .signature {
   display: block;
   font-size: 1.4rem;
-  text-align: center;
+  text-align: right;
   font-weight: 600;
   letter-spacing: 0.25rem;
 }
 
 /*********************************/
-/*** Filmography ***/
+/*** Feature Films ***/
 /*********************************/
 
-.section-films {
-  width: 100%;
-  margin: 0 auto;
-}
-.filmography {
-  margin-top: 4rem;
-}
 .film {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 20%));
   justify-content: center;
   gap: 4rem;
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
-  padding: 4.8rem 6.4rem;
+  padding: 1rem 0 8rem 0;
 }
 .film-item {
   display: flex;
@@ -247,45 +254,21 @@ body {
   text-align: end;
   margin-bottom: 1.4rem;
 }
-/*  Wiki Caption */
-.film-text-caption a {
-  font-weight: 600;
-  color: #1717f5;
-  text-decoration: none;
-}
-.film-text-caption a:visited {
-  text-decoration: none;
-}
 
 /*********************************/
 /*** AWARDS PAGE ***/
 /*********************************/
-.awards-title {
-  margin-bottom: 5rem;
-}
+
 .section-awards {
   background-color: #e0e8ff;
-  padding: 0rem 8rem;
-  padding-bottom: 4rem;
-  color: #220274;
+  border-top: var(--border-set);
 }
 .awards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  margin: 0 20%;
-}
-.award-item {
-  margin-bottom: 2rem;
-}
-.award-item p {
-  font-size: 4.4rem;
-  font-weight: 600;
-  text-align: center;
-  justify-content: center;
-}
-.award-icon {
-  margin-right: 1rem;
-  font-size: 3rem;
+  margin: 0 30%;
+  color: #220274;
+  margin-bottom: 3rem;
 }
 .awards-label {
   display: flex;
@@ -295,6 +278,15 @@ body {
   font-weight: 500;
   font-size: 1.6rem;
   margin: 0 auto;
+}
+.award-icon {
+  font-size: 3rem;
+}
+.award-item p {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  justify-content: center;
 }
 
 /*********************************/
@@ -328,24 +320,36 @@ body {
 }
 
 /*********************************/
-/*** Feature Films ***/
+/*** Footer ***/
 /*********************************/
 
 .footer {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 500;
   text-decoration: none;
   padding: 2rem;
   transition: background-color 0.5s;
-  border-top: 1.5px solid #eff3ff;
+  border-top: var(--border-set);
 }
+/*********************************************/
+/*  Bio / Wiki / Footer captions (Active/Hover etc) */
+/*********************************************/
+
+.bio-text-caption a,
+.film-text-caption a,
 .footer a {
+  font-weight: 600;
   color: #1717f5;
   text-decoration: none;
-  font-weight: 600;
 }
+.bio-text-caption a:hover,
+.film-text-caption a:hover,
 .footer a:hover {
-  text-decoration: none;
   color: red;
+}
+.bio-text-caption a:active,
+.film-text-caption a:active,
+.footer a:active {
+  color: grey;
 }

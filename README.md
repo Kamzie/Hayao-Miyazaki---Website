@@ -1,11 +1,34 @@
 # Tribute page for Hayoa Miyazaki
 
-Build a responsive website for mobile/desktop browsers.
+A simple tribute page that celebrates the accomplishments of Hayoa Miyazaki's iconic work at Studio Ghibli. The website includes a biography, famous quotes, filmography/awards, and movie images.
 
-Optimize to pass lighthouse benchmark
+## How to Use
 
-Host on Netlify + move (host) to the cloud + DB measuring analytics
+To use this website, simply navigate to the URL linked below. The website will automatically load and you can begin exploring.
 
-Hosted on Github : https://kamzie.github.io/Hayoa-Miyazaki---Website/
+## Features
+
+This website includes the following features:
+
+* A responsive web design with parallax scrolling for mobile/desktop browsers
+* Optimized image sizing to pass lighthouse benchmark (webp/jpg)
+* Added Totoro favicon
+* Improved CSS typography and spacing system inc helpers
+* Implemented zoom feature for the movie images
+
+## Technologies Used
+
+* HTML
+* CSS
+
+## To-Do list
+
+* Improve font + font size for the filmography + awards titles
+* Implement a scrolling feature for the movies to help reduce space
+* Test different layouts for movie images to help reduce space and improve flow 
+
+## Links
+
+Hosted on Github: https://kamzie.github.io/Hayoa-Miyazaki---Website/
 
 Netlify link below: https://hayao.netlify.app/

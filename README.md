@@ -12,9 +12,10 @@ This website includes the following features:
 
 * A responsive web design with parallax scrolling for mobile/desktop browsers
 * Optimized image sizing to pass lighthouse benchmark (webp/jpg)
-* Added Totoro favicon
 * Improved CSS typography and spacing system inc helpers
 * Implemented zoom feature for the movie images
+* Added Totoro favicon
+* Wikipedia links
 
 ## Technologies Used
 

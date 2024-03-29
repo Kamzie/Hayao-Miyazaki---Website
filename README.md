@@ -14,13 +14,13 @@ Simply follow the URL provided below to begin exploring.
 
 This website includes the following features:
 
-* Responsive web design for optimal viewing across all devices
-* Parallax scrolling enhancing the visual appeal
-* Enhanced CSS typography, Color and Whitespace management for improved readability
-* Optimized image sizing using webp/jpg formats to improve loading speed
-* Implemented zoom feature for a closer look at movie images
-* Added a charming Totoro favicon
-* Wikipedia links for further information
+* Responsive web design for optimal viewing across all devices.
+* Parallax scrolling to enhance the website's fluidity and visual appeal.
+* Enhanced CSS typography, Color and Whitespace management for improved readability.
+* Optimized image sizing using webp/jpg formats to improve loading speed while maintaining high-quality visuals.
+* Implemented zoom feature for movie images.
+* Added a Totoro favicon.
+* Wikipedia links for further information.
 
 ### Technologies Used:
 
@@ -33,7 +33,7 @@ This website includes the following features:
 * **Font Enhancement:** Refine font and font size for filmography and awards titles.
 * **Scrolling Feature:** Implement scrolling for movies to optimize space.
 * **Layout Testing:** Experiment with different image layouts to improve flow and conserve space.
-* **Update Movie** How do we live? = The Boy and the Heron
+* **Update Movie** How do we live? = The Boy and the Heron.
 
 ### Links:
 

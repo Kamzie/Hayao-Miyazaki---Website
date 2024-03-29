@@ -92,7 +92,9 @@ body {
   font-weight: 400;
   letter-spacing: 0.1rem;
 }
+
 /* IMAGES */
+
 /* (HERO) HOWLS MOVING CASTLE  */
 .bg-img-1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -136,7 +138,6 @@ body {
 .bio-text-con {
   padding: 0 4rem;
 }
-
 /* Big H colored orangered */
 .bio-text-con::first-letter {
   font-size: 5rem;
@@ -152,14 +153,12 @@ body {
   line-height: 1.6;
   margin-bottom: 2rem;
 }
-
 .bio-text span {
   font-weight: 600;
 }
 .bio-text-caption {
   text-align: end;
 }
-
 /* Studio Ghibli Logo */
 .bio-logo {
   display: flex;

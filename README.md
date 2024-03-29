@@ -1,34 +1,40 @@
 # Tribute page for Hayoa Miyazaki
 
-A simple tribute page that celebrates the accomplishments of Hayoa Miyazaki's iconic work at Studio Ghibli. The website includes a biography, famous quotes, filmography/awards, and movie images.
+A simple tribute page that celebrates the accomplishments of Hayoa Miyazaki's iconic work at Studio Ghibli. 
 
-## How to Use
+## Content and How to Use:
+This website offers a comprehensive exploration of Miyazaki's legacy, including:
 
-To use this website, simply navigate to the URL linked below. The website will automatically load and you can begin exploring.
+Biography
+Famous Quotes
+Filmography/Awards
+Movie Images
+Simply follow the URL provided below to begin exploring.
 
-## Features
+## Features:
 
 This website includes the following features:
 
-* A responsive web design with parallax scrolling for mobile/desktop browsers
-* Optimized image sizing to pass lighthouse benchmark (webp/jpg)
-* Improved CSS typography and spacing system inc helpers
-* Implemented zoom feature for the movie images
-* Added Totoro favicon
-* Wikipedia links
+* Responsive web design for optimal viewing on all devices
+* Parallax scrolling enhancing the visual appeal
+* Optimized image sizing using webp/jpg formats to improve loading speed
+* Enhanced CSS typography and spacing system for improved readability
+* Implemented zoom feature for a closer look at movie images
+* Added a charming Totoro favicon for a touch of Studio Ghibli magic
+* Wikipedia links for further exploration
 
-## Technologies Used
+## Technologies Used:
 
 * HTML
 * CSS
 
-## To-Do list
+## To-Do list:
 
-* Improve font + font size for the filmography + awards titles
-* Implement a scrolling feature for the movies to help reduce space
-* Test different layouts for movie images to help reduce space and improve flow 
+* **Font Enhancement:** Refine font and font size for filmography and awards titles.
+* **Scrolling Feature:** Implement scrolling for movies to optimize space.
+* **Layout Testing:** Experiment with different image layouts to improve flow and conserve space.
 
-## Links
+## Links:
 
 Hosted on Github: https://kamzie.github.io/Hayoa-Miyazaki---Website/
 

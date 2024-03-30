@@ -1,4 +1,4 @@
-# Tribute page for Hayoa Miyazaki
+# Tribute page for Hayao Miyazaki
 
 A simple tribute page that celebrates the accomplishments of Hayoa Miyazaki's iconic work at Studio Ghibli. 
 

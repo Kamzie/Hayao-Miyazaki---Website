@@ -31,7 +31,7 @@ This website includes the following features:
 ### To-Do list:
 
 * **Font Enhancement:** Refine font and font size for filmography and awards titles.
-* **Scrolling Feature:** Implement scrolling for movies to optimize space.
+* **Animated scrolling/slider Feature:** Implement a animated scrolling/slider for movies to optimize space.
 * **Layout Testing:** Experiment with different image layouts to improve flow and conserve space.
 * **Update Movie** How do we live? = The Boy and the Heron.
 

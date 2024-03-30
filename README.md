@@ -1,4 +1,4 @@
-# Tribute page for Hayao Miyazaki
+![Header](./BannerTotoro.png)
 
 A simple tribute page that celebrates the accomplishments of Hayao Miyazaki's iconic work at Studio Ghibli. 
 

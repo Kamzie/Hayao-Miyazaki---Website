@@ -1,6 +1,6 @@
 # Tribute page for Hayao Miyazaki
 
-A simple tribute page that celebrates the accomplishments of Hayoa Miyazaki's iconic work at Studio Ghibli. 
+A simple tribute page that celebrates the accomplishments of Hayao Miyazaki's iconic work at Studio Ghibli. 
 
 ### Content
 
@@ -37,6 +37,6 @@ This website includes the following features:
 
 ### Links:
 
-Hosted on Github: https://kamzie.github.io/Hayoa-Miyazaki---Website/
+Hosted on Github: https://kamzie.github.io/Hayao-Miyazaki---Website/
 
 Netlify link below: https://hayao.netlify.app/

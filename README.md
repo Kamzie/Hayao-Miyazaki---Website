@@ -33,7 +33,7 @@ This website includes the following features:
 * **Font Enhancement:** Refine font and font size for filmography and awards titles.
 * **Animated scrolling/slider Feature:** Implement a animated scrolling/slider for movies to optimize space.
 * **Layout Testing:** Experiment with different image layouts to improve flow and conserve space.
-* **Update Movie** How do we live? = The Boy and the Heron.
+* **Update the Movie** How do we live? = The Boy and the Heron.
 
 ### Links:
 
